@@ -8,7 +8,7 @@ const NewsCard = ({article: {description , publishedAt , source , title , url , 
     return(
         <Card className={classes.card}>
             <CardActionArea href={url} target="_blank">
-                <CardMedia className={classes.media} image={urlToImage || 'https://images.app.goo.gl/X9xsXFL2bJBEu2pq9'}/>
+                <CardMedia className={classes.media} image={urlToImage || 'https://media.istockphoto.com/vectors/world-news-flat-vector-icon-news-symbol-logo-illustration-business-vector-id929047972?k=20&m=929047972&s=612x612&w=0&h=L6vCAocE3TPfe69oyE-lBBt9mXaK---09K7oi730uW0='}/>
                 <div className={classes.details}>
                     <Typography variant="body2" color="textSecondary" component="h2">{(new Date(publishedAt)).toDateString()}</Typography>
                     <Typography variant="body2" color="textSecondary" component="h2">{source.name}</Typography>
