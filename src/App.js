@@ -1,3 +1,5 @@
+// author : Mostafa Adel 
+
 import React,{useState,useEffect} from "react";
 import alanBtn from "@alan-ai/alan-sdk-web";
 import NewsCards from "./components/NewsCards/NewsCards";
